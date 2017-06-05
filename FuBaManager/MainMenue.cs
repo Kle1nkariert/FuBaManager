@@ -17,6 +17,10 @@ namespace FuBaManager
         public MainMenue()
         {
             InitializeComponent();
+
+            
+            
+
         }
 
         private void NeuesSpiel_Click(object sender, EventArgs e)

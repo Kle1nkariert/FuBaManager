@@ -17,13 +17,14 @@ namespace FuBaManager
         public Mannschaft1()
         {
              InitializeComponent();
+            PerformAutoScale();
             //var meinTeam= new PlayerModel.Meinteam();
             //using (var context = new PlayerModel())
             //{
             //    meinTeam = context.Myteam.Find(1);
 
             //}
- 
+
 
         }
 
@@ -44,6 +45,9 @@ namespace FuBaManager
 
         private void Mannschaft1_Load(object sender, EventArgs e)
         {
+            if (DesignMode)
+                return;
+
             //Your code to run on load goes here 
             var teamsModel = new TeamsModel();
             teamsModel.Teams.Load();
@@ -54,6 +58,7 @@ namespace FuBaManager
             _bindingList = new BindingList<Player>(_playerModel.Players.Where(item => item.TeamId == _me.Id).ToList());
 
             this.bindingSource1.DataSource = _bindingList;
+
             dataGridView1.AutoGenerateColumns = true;
 
         }

@@ -16,7 +16,7 @@ namespace FuBaManager
         public Main()
         {
             InitializeComponent();
-
+            
 
 
         }
