@@ -45,16 +45,19 @@
             // 
             // zentrale2
             // 
-            this.zentrale2.Location = new System.Drawing.Point(-9, -30);
+            this.zentrale2.AutoSize = true;
+            this.zentrale2.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
+            this.zentrale2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.zentrale2.Location = new System.Drawing.Point(0, 0);
             this.zentrale2.Name = "zentrale2";
-            this.zentrale2.Size = new System.Drawing.Size(1000, 600);
+            this.zentrale2.Size = new System.Drawing.Size(984, 561);
             this.zentrale2.TabIndex = 2;
             // 
             // mannschaft11
             // 
             this.mannschaft11.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.mannschaft11.AutoSize = true;
-            this.mannschaft11.Location = new System.Drawing.Point(-9, -29);
+            this.mannschaft11.Location = new System.Drawing.Point(-12, -30);
             this.mannschaft11.Name = "mannschaft11";
             this.mannschaft11.Size = new System.Drawing.Size(1003, 603);
             this.mannschaft11.TabIndex = 3;

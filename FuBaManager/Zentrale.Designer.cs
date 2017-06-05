@@ -91,21 +91,21 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-            this.menuStrip1.Size = new System.Drawing.Size(102, 142);
+            this.menuStrip1.Size = new System.Drawing.Size(101, 142);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // toolStripTextBox1
             // 
             this.toolStripTextBox1.Name = "toolStripTextBox1";
-            this.toolStripTextBox1.Size = new System.Drawing.Size(93, 23);
+            this.toolStripTextBox1.Size = new System.Drawing.Size(92, 23);
             this.toolStripTextBox1.Text = "Transfermarkt";
             this.toolStripTextBox1.TextBoxTextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // toolStripTextBox2
             // 
             this.toolStripTextBox2.Name = "toolStripTextBox2";
-            this.toolStripTextBox2.Size = new System.Drawing.Size(93, 23);
+            this.toolStripTextBox2.Size = new System.Drawing.Size(92, 23);
             this.toolStripTextBox2.Text = "Mannschaften";
             this.toolStripTextBox2.TextBoxTextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.toolStripTextBox2.Click += new System.EventHandler(this.toolStripTextBox2_Click);
@@ -113,21 +113,21 @@
             // toolStripTextBox3
             // 
             this.toolStripTextBox3.Name = "toolStripTextBox3";
-            this.toolStripTextBox3.Size = new System.Drawing.Size(93, 23);
+            this.toolStripTextBox3.Size = new System.Drawing.Size(92, 23);
             this.toolStripTextBox3.Text = "Finanzen";
             this.toolStripTextBox3.TextBoxTextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // toolStripTextBox4
             // 
             this.toolStripTextBox4.Name = "toolStripTextBox4";
-            this.toolStripTextBox4.Size = new System.Drawing.Size(93, 23);
+            this.toolStripTextBox4.Size = new System.Drawing.Size(92, 23);
             this.toolStripTextBox4.Text = "Vereinsgelände";
             this.toolStripTextBox4.TextBoxTextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // toolStripTextBox5
             // 
             this.toolStripTextBox5.Name = "toolStripTextBox5";
-            this.toolStripTextBox5.Size = new System.Drawing.Size(93, 23);
+            this.toolStripTextBox5.Size = new System.Drawing.Size(92, 23);
             this.toolStripTextBox5.Text = "Verein";
             this.toolStripTextBox5.TextBoxTextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.toolStripTextBox5.Click += new System.EventHandler(this.toolStripTextBox5_Click);
@@ -135,7 +135,7 @@
             // toolStripTextBox6
             // 
             this.toolStripTextBox6.Name = "toolStripTextBox6";
-            this.toolStripTextBox6.Size = new System.Drawing.Size(93, 23);
+            this.toolStripTextBox6.Size = new System.Drawing.Size(92, 23);
             this.toolStripTextBox6.Text = "Statistik";
             this.toolStripTextBox6.TextBoxTextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -149,12 +149,12 @@
             // 
             // toolStripContainer1.ContentPanel
             // 
-            this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(4, 142);
+            this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(5, 142);
             // 
             // toolStripContainer1.LeftToolStripPanel
             // 
             this.toolStripContainer1.LeftToolStripPanel.Controls.Add(this.menuStrip1);
-            this.toolStripContainer1.Location = new System.Drawing.Point(22, 35);
+            this.toolStripContainer1.Location = new System.Drawing.Point(3, 3);
             this.toolStripContainer1.Name = "toolStripContainer1";
             this.toolStripContainer1.RightToolStripPanelVisible = false;
             this.toolStripContainer1.Size = new System.Drawing.Size(106, 142);
