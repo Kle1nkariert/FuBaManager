@@ -54,7 +54,7 @@
             this.zentrale2.TabIndex = 2;
             // 
             // mannschaft11
-            // 
+            //
             this.mannschaft11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.mannschaft11.Location = new System.Drawing.Point(0, 0);
             this.mannschaft11.Name = "mannschaft11";
