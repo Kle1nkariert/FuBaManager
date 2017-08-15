@@ -35,11 +35,11 @@
             // 
             // mainMenue1
             // 
-            this.mainMenue1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.mainMenue1.AutoScroll = true;
-            this.mainMenue1.Location = new System.Drawing.Point(-9, -30);
+            this.mainMenue1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.mainMenue1.Location = new System.Drawing.Point(0, 0);
             this.mainMenue1.Name = "mainMenue1";
-            this.mainMenue1.Size = new System.Drawing.Size(1000, 600);
+            this.mainMenue1.Size = new System.Drawing.Size(984, 561);
             this.mainMenue1.TabIndex = 0;
             this.mainMenue1.Load += new System.EventHandler(this.mainMenue1_Load_1);
             // 
@@ -55,17 +55,17 @@
             // 
             // mannschaft11
             // 
-            this.mannschaft11.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.mannschaft11.AutoSize = true;
-            this.mannschaft11.Location = new System.Drawing.Point(-12, -30);
+            this.mannschaft11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.mannschaft11.Location = new System.Drawing.Point(0, 0);
             this.mannschaft11.Name = "mannschaft11";
-            this.mannschaft11.Size = new System.Drawing.Size(1003, 603);
+            this.mannschaft11.Size = new System.Drawing.Size(984, 561);
             this.mannschaft11.TabIndex = 3;
             // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(984, 561);
             this.Controls.Add(this.mannschaft11);
             this.Controls.Add(this.mainMenue1);
@@ -74,6 +74,7 @@
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Main_Load);
+            this.Resize += new System.EventHandler(this.Main_Resize);
             this.ResumeLayout(false);
             this.PerformLayout();
 

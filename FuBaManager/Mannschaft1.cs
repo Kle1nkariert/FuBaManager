@@ -17,7 +17,6 @@ namespace FuBaManager
         public Mannschaft1()
         {
              InitializeComponent();
-            PerformAutoScale();
             //var meinTeam= new PlayerModel.Meinteam();
             //using (var context = new PlayerModel())
             //{
@@ -27,7 +26,7 @@ namespace FuBaManager
 
 
         }
-
+        private Player _Att;
         private Team _me;
         private BindingList<Player> _bindingList;
 
@@ -56,10 +55,30 @@ namespace FuBaManager
             var _playerModel = new PlayerModel();
             _playerModel.Players.Load();
             _bindingList = new BindingList<Player>(_playerModel.Players.Where(item => item.TeamId == _me.Id).ToList());
+            //_Att=_playerModel.Players.Where(a => a.Att == 0).FirstOrDefault();
+            //_bindingList.Remove(_Att);
+
+            //dataGridView1.AutoGenerateColumns = false;
+            //dataGridView1.ColumnCount = 2;
+            //dataGridView1.Columns[1].Name = "Nachname";
+            //dataGridView1.Columns[1].DataPropertyName = "Nachname";
 
             this.bindingSource1.DataSource = _bindingList;
+            dataGridView1.Columns[0].DataPropertyName = "Nachname";
+            dataGridView1.Columns[1].DataPropertyName = "Vorname";
+            dataGridView1.Columns[2].DataPropertyName = "Att";
+            dataGridView1.Columns[3].DataPropertyName = "Deff";
+            dataGridView1.AutoGenerateColumns = false;
+        }
 
-            dataGridView1.AutoGenerateColumns = true;
+        private void dataGridView1_Resize(object sender, EventArgs e)
+        {
+            this.dataGridView1.Left = this.Width / 2;
+            this.dataGridView1.Width = this.Width / 2;
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
 
         }
     }

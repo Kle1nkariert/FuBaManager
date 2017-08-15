@@ -16,8 +16,8 @@ namespace FuBaManager
         public Main()
         {
             InitializeComponent();
-            
-
+            //mannschaft11.Dock = (DockStyle.Fill);
+            //mannschaft11.Anchor = (AnchorStyles.Right|AnchorStyles.Left|AnchorStyles.Top|AnchorStyles.Bottom);
 
         }
 
@@ -48,6 +48,10 @@ namespace FuBaManager
         private void mainMenue1_Load_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void Main_Resize(object sender, EventArgs e)
+        {
         }
     }
 }

@@ -20,6 +20,7 @@ namespace FuBaManager
         public Zentrale()
         {
             InitializeComponent();
+            
             //this.dataGridView1.AutoGenerateColumns = true;
 
             //_teamsModel = new TeamsModel();
@@ -53,6 +54,11 @@ namespace FuBaManager
             
             this.Hide();
             mannschaft1.Show();
+        }
+
+        private void Zentrale_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
