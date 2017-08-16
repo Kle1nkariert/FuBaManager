@@ -25,6 +25,7 @@ namespace FuBaManager
         {
             this.mainMenue1.zentrale = this.zentrale2;
             this.zentrale2.mannschaft1 = this.mannschaft11;
+            this.mannschaft11.Zentrale2 = this.zentrale2;
             this.mannschaft11.Hide();
             zentrale2.Hide();
         

@@ -30,11 +30,12 @@
         {
             this.components = new System.ComponentModel.Container();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.Nachname = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Vorname = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Att = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Deff = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.Zentrale_Button = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.SuspendLayout();
@@ -60,10 +61,6 @@
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             this.dataGridView1.Resize += new System.EventHandler(this.dataGridView1_Resize);
             // 
-            // bindingSource1
-            // 
-            this.bindingSource1.CurrentChanged += new System.EventHandler(this.bindingSource1_CurrentChanged);
-            // 
             // Nachname
             // 
             this.Nachname.HeaderText = "Nachname";
@@ -88,10 +85,25 @@
             this.Deff.Name = "Deff";
             this.Deff.ReadOnly = true;
             // 
+            // bindingSource1
+            // 
+            this.bindingSource1.CurrentChanged += new System.EventHandler(this.bindingSource1_CurrentChanged);
+            // 
+            // Zentrale_Button
+            // 
+            this.Zentrale_Button.Location = new System.Drawing.Point(4, 0);
+            this.Zentrale_Button.Name = "Zentrale_Button";
+            this.Zentrale_Button.Size = new System.Drawing.Size(75, 23);
+            this.Zentrale_Button.TabIndex = 1;
+            this.Zentrale_Button.Text = "Zentrale";
+            this.Zentrale_Button.UseVisualStyleBackColor = true;
+            this.Zentrale_Button.Click += new System.EventHandler(this.Zentrale_Click);
+            // 
             // Mannschaft1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.Zentrale_Button);
             this.Controls.Add(this.dataGridView1);
             this.Name = "Mannschaft1";
             this.Size = new System.Drawing.Size(1000, 600);
@@ -110,5 +122,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Vorname;
         private System.Windows.Forms.DataGridViewTextBoxColumn Att;
         private System.Windows.Forms.DataGridViewTextBoxColumn Deff;
+        private System.Windows.Forms.Button Zentrale_Button;
     }
 }
