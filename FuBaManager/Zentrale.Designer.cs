@@ -99,21 +99,21 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-            this.menuStrip1.Size = new System.Drawing.Size(98, 144);
+            this.menuStrip1.Size = new System.Drawing.Size(97, 144);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // toolStripTextBox1
             // 
             this.toolStripTextBox1.Name = "toolStripTextBox1";
-            this.toolStripTextBox1.Size = new System.Drawing.Size(89, 23);
+            this.toolStripTextBox1.Size = new System.Drawing.Size(88, 23);
             this.toolStripTextBox1.Text = "Transfermarkt";
             this.toolStripTextBox1.TextBoxTextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // toolStripTextBox2
             // 
             this.toolStripTextBox2.Name = "toolStripTextBox2";
-            this.toolStripTextBox2.Size = new System.Drawing.Size(89, 23);
+            this.toolStripTextBox2.Size = new System.Drawing.Size(88, 23);
             this.toolStripTextBox2.Text = "Mannschaften";
             this.toolStripTextBox2.TextBoxTextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.toolStripTextBox2.Click += new System.EventHandler(this.toolStripTextBox2_Click);
@@ -121,21 +121,21 @@
             // toolStripTextBox3
             // 
             this.toolStripTextBox3.Name = "toolStripTextBox3";
-            this.toolStripTextBox3.Size = new System.Drawing.Size(89, 23);
+            this.toolStripTextBox3.Size = new System.Drawing.Size(88, 23);
             this.toolStripTextBox3.Text = "Finanzen";
             this.toolStripTextBox3.TextBoxTextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // toolStripTextBox4
             // 
             this.toolStripTextBox4.Name = "toolStripTextBox4";
-            this.toolStripTextBox4.Size = new System.Drawing.Size(89, 23);
+            this.toolStripTextBox4.Size = new System.Drawing.Size(88, 23);
             this.toolStripTextBox4.Text = "Vereinsgelände";
             this.toolStripTextBox4.TextBoxTextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // toolStripTextBox5
             // 
             this.toolStripTextBox5.Name = "toolStripTextBox5";
-            this.toolStripTextBox5.Size = new System.Drawing.Size(89, 23);
+            this.toolStripTextBox5.Size = new System.Drawing.Size(88, 23);
             this.toolStripTextBox5.Text = "Verein";
             this.toolStripTextBox5.TextBoxTextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.toolStripTextBox5.Click += new System.EventHandler(this.toolStripTextBox5_Click);
@@ -143,7 +143,7 @@
             // toolStripTextBox6
             // 
             this.toolStripTextBox6.Name = "toolStripTextBox6";
-            this.toolStripTextBox6.Size = new System.Drawing.Size(89, 23);
+            this.toolStripTextBox6.Size = new System.Drawing.Size(88, 23);
             this.toolStripTextBox6.Text = "Statistik";
             this.toolStripTextBox6.TextBoxTextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -157,7 +157,7 @@
             // 
             // toolStripContainer1.ContentPanel
             // 
-            this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(1, 144);
+            this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(2, 144);
             // 
             // toolStripContainer1.LeftToolStripPanel
             // 
@@ -175,6 +175,7 @@
             this.richTextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.richTextBox1.Location = new System.Drawing.Point(910, 0);
             this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ReadOnly = true;
             this.richTextBox1.Size = new System.Drawing.Size(90, 80);
             this.richTextBox1.TabIndex = 2;
             this.richTextBox1.Text = "";
@@ -184,6 +185,7 @@
             this.richTextBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.richTextBox2.Location = new System.Drawing.Point(910, 86);
             this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.ReadOnly = true;
             this.richTextBox2.Size = new System.Drawing.Size(90, 80);
             this.richTextBox2.TabIndex = 8;
             this.richTextBox2.Text = "";
@@ -193,6 +195,7 @@
             this.richTextBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.richTextBox3.Location = new System.Drawing.Point(910, 172);
             this.richTextBox3.Name = "richTextBox3";
+            this.richTextBox3.ReadOnly = true;
             this.richTextBox3.Size = new System.Drawing.Size(90, 80);
             this.richTextBox3.TabIndex = 9;
             this.richTextBox3.Text = "";
@@ -202,6 +205,7 @@
             this.richTextBox7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.richTextBox7.Location = new System.Drawing.Point(910, 516);
             this.richTextBox7.Name = "richTextBox7";
+            this.richTextBox7.ReadOnly = true;
             this.richTextBox7.Size = new System.Drawing.Size(90, 80);
             this.richTextBox7.TabIndex = 10;
             this.richTextBox7.Text = "";
@@ -211,6 +215,7 @@
             this.richTextBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.richTextBox6.Location = new System.Drawing.Point(910, 430);
             this.richTextBox6.Name = "richTextBox6";
+            this.richTextBox6.ReadOnly = true;
             this.richTextBox6.Size = new System.Drawing.Size(90, 80);
             this.richTextBox6.TabIndex = 11;
             this.richTextBox6.Text = "";
@@ -220,6 +225,7 @@
             this.richTextBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.richTextBox5.Location = new System.Drawing.Point(910, 344);
             this.richTextBox5.Name = "richTextBox5";
+            this.richTextBox5.ReadOnly = true;
             this.richTextBox5.Size = new System.Drawing.Size(90, 80);
             this.richTextBox5.TabIndex = 12;
             this.richTextBox5.Text = "";
@@ -229,6 +235,7 @@
             this.richTextBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.richTextBox4.Location = new System.Drawing.Point(910, 258);
             this.richTextBox4.Name = "richTextBox4";
+            this.richTextBox4.ReadOnly = true;
             this.richTextBox4.Size = new System.Drawing.Size(90, 80);
             this.richTextBox4.TabIndex = 13;
             this.richTextBox4.Text = "";
